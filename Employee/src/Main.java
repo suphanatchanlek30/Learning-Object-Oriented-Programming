@@ -25,5 +25,8 @@ public class Main {
         // เรียกใช้ methods ที่เราสร้างไว้ใน Employee
         e1.displayEmployee();
         e2.displayEmployee();
+
+        // แสดงแค่ชื่อออกมา ตาม Methods getName() ที่เราสร้างไว้
+        System.out.println("Name = " + e1.getName());
     }
 }

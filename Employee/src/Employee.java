@@ -18,8 +18,13 @@ public class Employee {
 
     // สร้าง Methods ที่เอาไว้แสดง print
     public void displayEmployee(){
-        System.out.println("Employee ID: " + id);
-        System.out.println("Employee Name: " + name);
-        System.out.println("Employee Salary: " + salary);
+        System.out.println("Employee ID: " + this.id);
+        System.out.println("Employee Name: " + this.name);
+        System.out.println("Employee Salary: " + this.salary);
+    }
+
+    // สร้าง Methods ดึงข้อมูล แบบเอาแค่เฉพาะ Attribute บางตัว
+    public String getName(){
+        return this.name;
     }
 }
